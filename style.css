@@ -124,7 +124,7 @@ nav ul li a {
   align-items: center;
   justify-content: center;
   z-index: 1000;
-  padding: 10px; /* スマホ対策 */
+  padding: 10px;
   box-sizing: border-box;
   overflow: auto;
 }
@@ -146,6 +146,10 @@ nav ul li a {
   display: block;
   margin-bottom: 20px;
   border-radius: 8px;
+}
+
+#modal-image {
+  display: none;
 }
 
 @media screen and (max-width: 480px) {
