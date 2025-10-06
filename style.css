@@ -14,17 +14,24 @@ header, nav, section, footer {
   border-radius: 8px;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
 header img {
   max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
-}
-
-header {
-  width: 100%;
-  box-sizing: border-box;
-  overflow: hidden;
 }
 
 nav ul {
